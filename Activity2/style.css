@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000000;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+button {
+    background-color:#F25757;
+    
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+aside {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.kids-image {
+    width: 1470px;
+    height: 403px;
+top: 108px;
+left: 4px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1340px;
+    height: 568px;
+    background-color: #E7E991;
+top: 511px;
+border: 1px;
+
+
+}
+
+.winkwink {
+    width: 270px;
+    height: 251px;
+align-items: center;
+border: 1px;
+padding-bottom: 20px;
+
+}
+
+.lilcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 388px;
+    height: 568px;
+    background-color: #FEFFDB;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.trustext {
+    text-align: right;
+    width: 869px;
+    height: 325px;
+top: 754px;
+left: 424px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+padding-right: 20px;
+
+}
+
+.teachtext {
+    padding-left: 20px;
+    width: 656px;
+height: 164px;
+top: 567px;
+left: 80px;
+font-family: Assistant;
+font-size: 24px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+
+font-family: Assistant;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.prepost {
+    padding-left: 10px;
+    padding-top: 20px;
+    top: 567px;
+left: 80px;
+font-family: Assistant;
+font-size: 24px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+}
+
+.holidaybutton {
+    width: 307px;
+height: 65px;
+top: 986px;
+left: 1378px;
+border-radius: 5px;
+padding-top: 20px;
+
+}
+
+.asinine {
+
+font-family: Inter;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: right;
+padding-top: 15px;
+
+}
+
+.footcont {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.footimg {
+    width: 308px;
+    height: 287px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.footer-links > div {
+    flex: 1;
+    margin-right: 100px;
+}
+
+.footer-links p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    width: 220px;
+height: 18px;
+top: 4123px;
+left: 697px;
+font-family: Assistant;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 250px;
+
+}
+
+.donut {
+    width: 1470px;
+height: 500px;
+top: 1081px;
+left: 1px;
+}
+
+.donutcont {
+    width: 1470px;
+    height: 403px;
+top: 108px;
+left: 4px;
+font-family: Assistant;
+font-size: 24px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.chartie {
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+.testiconta {
+    width: 1728px;
+height: 670px;
+top: 2046px;
+background-image: url(images/duck.png);
+background-position: center;
+
+}
+
+.testitext {
+    width: 688px;
+height: 263px;
+top: 2154px;
+left: 109px;
+
+font-family: Assistant;
+font-size: 32px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+padding-top: 40px;
+padding-left: 50px;
+color: white
+
+
+}
+
+.testitext p {
+
+font-family: Assistant;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+}
+
+.mayra {
+    width: 116px;
+    height: 118px;
+    top: 2567px;
+    left: 443px;
+    border: 1px;
+}
+
+.anne {
+    width: 116px;
+height: 118px;
+top: 2567px;
+left: 443px;
+border: 1px;
+
+}
+
+.aaron {
+    width: 116px;
+    height: 118px;
+    top: 2567px;
+    left: 443px;
+    border: 1px;
+}
+
+.mayracont {
+    display: flex;
+    width: 359px;
+height: 130px;
+top: 2523px;
+left: 399px;
+border: 5px solid #20DD1C45
+
+}
+
+.mayratext {
+    width: 105px;
+height: 52px;
+top: 2600px;
+left: 578px;
+font-family: Assistant;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 10px;
+}
+
+.mayracont2 {
+    width: 286px;
+height: 42px;
+top: 2732px;
+left: 430px;
+font-family: Assistant;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.bluecont {
+    width: 1220px;
+height: 304px;
+top: 2716px;
+border: 1px;
+background: #1C71A1;
+border: 1px solid #000000
+}
+
+.annecont {
+    display: flex;
+    width: 359px;
+height: 130px;
+top: 2523px;
+left: 399px;
+border: 5px solid #E7E991
+}
+
+.annecont2{
+    width: 286px;
+    height: 42px;
+    top: 2732px;
+    left: 430px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.aaroncont{
+    display: flex;
+    width: 359px;
+height: 130px;
+top: 2523px;
+left: 399px;
+border: 5px solid #F88484
+}
+
+.aaroncont2 {
+    width: 286px;
+    height: 42px;
+    top: 2732px;
+    left: 430px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.personcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.winnerimg {
+    width: 626px;
+height: 821px;
+top: 3019px;
+
+}
+
+.contactcont{
+    width: 760px;
+height: 821px;
+top: 3019px;
+left: 826px;
+border: 1px;
+background: #CECECE;
+border: 1px solid #000000
+
+}
+
+.bigcont2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contactcont h1 {
+    width: 656px;
+height: 65px;
+top: 3046px;
+left: 957px;
+font-family: Assistant;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color:  #F25757;
+
+}
+
+.contactcont p {
+    width: 208px;
+height: 18px;
+top: 3134px;
+left: 968px;
+font-family: Assistant;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+.emailbox {
+    width: 436px;
+height: 81px;
+top: 3157px;
+left: 959px;
+background: #FFFCFC;
+padding-left: 20px;
+}
+
+.namelast {
+    width: 436px;
+    height: 81px;
+    top: 3157px;
+    left: 959px;
+    background: #FFFCFC;
+    padding-left: 20px;
+}
+
+.locationtext {
+    width: 254px;
+height: 81px;
+top: 3398px;
+left: 959px;
+border-radius: 5px;
+border: 1px;
+padding-left: 20px;
+}
+
+.ziptext {
+    width: 254px;
+height: 81px;
+top: 3398px;
+left: 959px;
+border-radius: 5px;
+border: 1px;
+padding-left: 20px;
+}
+
+.yourmessage {
+    width: 550px;
+height: 136px;
+top: 3524px;
+left: 959px;
+border-radius: 5px;
+border: 1px;
+
+}
+
+.messagebutton {
+    width: 550px;
+height: 65px;
+top: 3696px;
+left: 959px;
+border-radius: 5px;
+
+}
